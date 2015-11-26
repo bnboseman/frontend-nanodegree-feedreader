@@ -114,7 +114,7 @@ $(function() {
 				});
 			});
 
-			it('changes the content displayed', function(done) {
+			it('the content displayed is changed', function(done) {
 				expect(current_news).not.toBe($('.feed').html());
 				done();
 			});
